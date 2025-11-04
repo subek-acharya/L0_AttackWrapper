@@ -1,0 +1,11 @@
+# Python cache
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data directory
+data/
+
+# Models directory
+models/
