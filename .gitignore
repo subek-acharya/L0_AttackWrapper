@@ -6,6 +6,3 @@ __pycache__/
 
 # Data directory
 data/
-
-# Models directory
-models/
