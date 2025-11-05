@@ -50,9 +50,9 @@ Combines L0 sparsity constraint with L∞ magnitude constraint, ensuring perturb
 
 ```
 L0_AttackWrapper/
-├── L0_PGD_AttackWrapper.py          # Standard L0 attack
-├── L0_Linf_PGD_AttackWrapper.py     # L0 + L∞ attack
-├── L0_Sigma_PGD_AttackWrapper.py    # L0 + Sigma attack (structure-aware)
+├── L0_PGD_AttackWrapper.py           # Standard L0 attack
+├── L0_Linf_PGD_AttackWrapper.py      # L0 + L∞ attack
+├── L0_Sigma_PGD_AttackWrapper.py     # L0 + Sigma attack (structure-aware)
 ├── DataManagerPytorch.py             # Data loading utilities
 ├── L0_Utils.py                       # Helper functions
 ├── Utils.py                          # General utilities
@@ -60,8 +60,8 @@ L0_AttackWrapper/
 ├── main.py                           # Main execution script
 ├── models/                           # Trained model checkpoints
 │   └── model_test.pt
-└── data/      
-```                       # Dataset directory
+└── data/                             # Dataset directory
+                      
 
 ## Installation Requirements
 
