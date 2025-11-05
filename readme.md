@@ -48,6 +48,7 @@ Combines L0 sparsity constraint with L∞ magnitude constraint, ensuring perturb
 
 ## Project Structure
 
+```
 L0_AttackWrapper/
 ├── L0_PGD_AttackWrapper.py          # Standard L0 attack
 ├── L0_Linf_PGD_AttackWrapper.py     # L0 + L∞ attack
@@ -59,7 +60,8 @@ L0_AttackWrapper/
 ├── main.py                           # Main execution script
 ├── models/                           # Trained model checkpoints
 │   └── model_test.pt
-└── data/                             # Dataset directory
+└── data/      
+```                       # Dataset directory
 
 ## Installation Requirements
 
